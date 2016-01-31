@@ -10,11 +10,13 @@
 		457BEC821C5E0D0D00B96F5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC811C5E0D0D00B96F5C /* main.m */; };
 		457BEC851C5E0D0D00B96F5C /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */; };
 		457BEC881C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC861C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld */; };
-		457BEC8B1C5E0D0D00B96F5C /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC8A1C5E0D0D00B96F5C /* ADViewController.m */; };
 		457BEC8E1C5E0D0D00B96F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457BEC8C1C5E0D0D00B96F5C /* Main.storyboard */; };
 		457BEC901C5E0D0D00B96F5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */; };
 		457BEC931C5E0D0D00B96F5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457BEC911C5E0D0D00B96F5C /* LaunchScreen.xib */; };
 		457BEC9F1C5E0D0D00B96F5C /* GuruCrafterAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC9E1C5E0D0D00B96F5C /* GuruCrafterAppTests.m */; };
+		457BECAC1C5E1CA000B96F5C /* ADStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BECAB1C5E1CA000B96F5C /* ADStudentsTableViewController.m */; };
+		457BECAF1C5E1DA400B96F5C /* ADStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BECAE1C5E1DA400B96F5C /* ADStartViewController.m */; };
+		45B42F321C5E3A7100344EDB /* ADDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B42F311C5E3A7100344EDB /* ADDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,18 @@
 		457BEC831C5E0D0D00B96F5C /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
 		457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
 		457BEC871C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuruCrafterApp.xcdatamodel; sourceTree = "<group>"; };
-		457BEC891C5E0D0D00B96F5C /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
-		457BEC8A1C5E0D0D00B96F5C /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		457BEC8D1C5E0D0D00B96F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		457BEC921C5E0D0D00B96F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		457BEC981C5E0D0D00B96F5C /* GuruCrafterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuruCrafterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		457BEC9D1C5E0D0D00B96F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457BEC9E1C5E0D0D00B96F5C /* GuruCrafterAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuruCrafterAppTests.m; sourceTree = "<group>"; };
+		457BECAA1C5E1CA000B96F5C /* ADStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADStudentsTableViewController.h; sourceTree = "<group>"; };
+		457BECAB1C5E1CA000B96F5C /* ADStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADStudentsTableViewController.m; sourceTree = "<group>"; };
+		457BECAD1C5E1DA400B96F5C /* ADStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADStartViewController.h; sourceTree = "<group>"; };
+		457BECAE1C5E1DA400B96F5C /* ADStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADStartViewController.m; sourceTree = "<group>"; };
+		45B42F301C5E3A7100344EDB /* ADDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDataManager.h; path = GuruCrafterApp/ADDataManager.h; sourceTree = "<group>"; };
+		45B42F311C5E3A7100344EDB /* ADDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDataManager.m; path = GuruCrafterApp/ADDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +89,11 @@
 		457BEC7E1C5E0D0D00B96F5C /* GuruCrafterApp */ = {
 			isa = PBXGroup;
 			children = (
-				457BEC831C5E0D0D00B96F5C /* ADAppDelegate.h */,
-				457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */,
-				457BEC891C5E0D0D00B96F5C /* ADViewController.h */,
-				457BEC8A1C5E0D0D00B96F5C /* ADViewController.m */,
-				457BEC8C1C5E0D0D00B96F5C /* Main.storyboard */,
-				457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */,
-				457BEC911C5E0D0D00B96F5C /* LaunchScreen.xib */,
+				457BECA91C5E193B00B96F5C /* App Delegate */,
+				457BECA81C5E191100B96F5C /* Controllers */,
+				45B42F331C5E3A7500344EDB /* Data Singletone */,
 				457BEC861C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld */,
+				457BEC8C1C5E0D0D00B96F5C /* Main.storyboard */,
 				457BEC7F1C5E0D0D00B96F5C /* Supporting Files */,
 			);
 			path = GuruCrafterApp;
@@ -99,6 +102,8 @@
 		457BEC7F1C5E0D0D00B96F5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */,
+				457BEC911C5E0D0D00B96F5C /* LaunchScreen.xib */,
 				457BEC801C5E0D0D00B96F5C /* Info.plist */,
 				457BEC811C5E0D0D00B96F5C /* main.m */,
 			);
@@ -120,6 +125,36 @@
 				457BEC9D1C5E0D0D00B96F5C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		457BECA81C5E191100B96F5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				457BECAD1C5E1DA400B96F5C /* ADStartViewController.h */,
+				457BECAE1C5E1DA400B96F5C /* ADStartViewController.m */,
+				457BECAA1C5E1CA000B96F5C /* ADStudentsTableViewController.h */,
+				457BECAB1C5E1CA000B96F5C /* ADStudentsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		457BECA91C5E193B00B96F5C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				457BEC831C5E0D0D00B96F5C /* ADAppDelegate.h */,
+				457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		45B42F331C5E3A7500344EDB /* Data Singletone */ = {
+			isa = PBXGroup;
+			children = (
+				45B42F301C5E3A7100344EDB /* ADDataManager.h */,
+				45B42F311C5E3A7100344EDB /* ADDataManager.m */,
+			);
+			name = "Data Singletone";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457BECAC1C5E1CA000B96F5C /* ADStudentsTableViewController.m in Sources */,
 				457BEC851C5E0D0D00B96F5C /* ADAppDelegate.m in Sources */,
 				457BEC821C5E0D0D00B96F5C /* main.m in Sources */,
-				457BEC8B1C5E0D0D00B96F5C /* ADViewController.m in Sources */,
 				457BEC881C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld in Sources */,
+				45B42F321C5E3A7100344EDB /* ADDataManager.m in Sources */,
+				457BECAF1C5E1DA400B96F5C /* ADStartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +457,7 @@
 				457BECA41C5E0D0D00B96F5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		457BECA51C5E0D0D00B96F5C /* Build configuration list for PBXNativeTarget "GuruCrafterAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +466,7 @@
 				457BECA71C5E0D0D00B96F5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
