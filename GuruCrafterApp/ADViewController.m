@@ -6,13 +6,13 @@
 //  Copyright (c) 2016 Artyom Alexeev. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ADViewController.h"
 
-@interface ViewController ()
+@interface ADViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ADViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

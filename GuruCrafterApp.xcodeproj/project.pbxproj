@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		457BEC821C5E0D0D00B96F5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC811C5E0D0D00B96F5C /* main.m */; };
-		457BEC851C5E0D0D00B96F5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC841C5E0D0D00B96F5C /* AppDelegate.m */; };
+		457BEC851C5E0D0D00B96F5C /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */; };
 		457BEC881C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC861C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld */; };
-		457BEC8B1C5E0D0D00B96F5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC8A1C5E0D0D00B96F5C /* ViewController.m */; };
+		457BEC8B1C5E0D0D00B96F5C /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC8A1C5E0D0D00B96F5C /* ADViewController.m */; };
 		457BEC8E1C5E0D0D00B96F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457BEC8C1C5E0D0D00B96F5C /* Main.storyboard */; };
 		457BEC901C5E0D0D00B96F5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */; };
 		457BEC931C5E0D0D00B96F5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457BEC911C5E0D0D00B96F5C /* LaunchScreen.xib */; };
@@ -31,11 +31,11 @@
 		457BEC7C1C5E0D0D00B96F5C /* GuruCrafterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuruCrafterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		457BEC801C5E0D0D00B96F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457BEC811C5E0D0D00B96F5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		457BEC831C5E0D0D00B96F5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		457BEC841C5E0D0D00B96F5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		457BEC831C5E0D0D00B96F5C /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
+		457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
 		457BEC871C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuruCrafterApp.xcdatamodel; sourceTree = "<group>"; };
-		457BEC891C5E0D0D00B96F5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		457BEC8A1C5E0D0D00B96F5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		457BEC891C5E0D0D00B96F5C /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		457BEC8A1C5E0D0D00B96F5C /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		457BEC8D1C5E0D0D00B96F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		457BEC921C5E0D0D00B96F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,10 +83,10 @@
 		457BEC7E1C5E0D0D00B96F5C /* GuruCrafterApp */ = {
 			isa = PBXGroup;
 			children = (
-				457BEC831C5E0D0D00B96F5C /* AppDelegate.h */,
-				457BEC841C5E0D0D00B96F5C /* AppDelegate.m */,
-				457BEC891C5E0D0D00B96F5C /* ViewController.h */,
-				457BEC8A1C5E0D0D00B96F5C /* ViewController.m */,
+				457BEC831C5E0D0D00B96F5C /* ADAppDelegate.h */,
+				457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */,
+				457BEC891C5E0D0D00B96F5C /* ADViewController.h */,
+				457BEC8A1C5E0D0D00B96F5C /* ADViewController.m */,
 				457BEC8C1C5E0D0D00B96F5C /* Main.storyboard */,
 				457BEC8F1C5E0D0D00B96F5C /* Images.xcassets */,
 				457BEC911C5E0D0D00B96F5C /* LaunchScreen.xib */,
@@ -222,9 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457BEC851C5E0D0D00B96F5C /* AppDelegate.m in Sources */,
+				457BEC851C5E0D0D00B96F5C /* ADAppDelegate.m in Sources */,
 				457BEC821C5E0D0D00B96F5C /* main.m in Sources */,
-				457BEC8B1C5E0D0D00B96F5C /* ViewController.m in Sources */,
+				457BEC8B1C5E0D0D00B96F5C /* ADViewController.m in Sources */,
 				457BEC881C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
