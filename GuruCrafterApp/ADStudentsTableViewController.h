@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataViewController.h"
+#import <CoreData/CoreData.h>
 
-@interface ADStudentsTableViewController : UITableViewController <UITableViewDataSource>
+@class ADUniversities;
+
+@interface ADStudentsTableViewController : CoreDataViewController
+
+@property (strong, nonatomic) ADUniversities* university;
 
 @end

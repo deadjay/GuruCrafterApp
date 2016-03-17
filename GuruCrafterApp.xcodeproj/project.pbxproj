@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451905AF1C95E91100E3F917 /* ADUniversityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451905AE1C95E91100E3F917 /* ADUniversityViewController.m */; };
+		451EF01E1C98AD41009265BC /* ADNewStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451EF01D1C98AD41009265BC /* ADNewStudentViewController.m */; };
+		452C48F01C9356D1000A5BE7 /* ADCourses.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C48E71C9356D1000A5BE7 /* ADCourses.m */; };
+		452C48F11C9356D1000A5BE7 /* ADLecturers.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C48E91C9356D1000A5BE7 /* ADLecturers.m */; };
+		452C48F21C9356D1000A5BE7 /* ADObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C48EB1C9356D1000A5BE7 /* ADObject.m */; };
+		452C48F31C9356D1000A5BE7 /* ADStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C48ED1C9356D1000A5BE7 /* ADStudents.m */; };
+		452C48F41C9356D1000A5BE7 /* ADUniversities.m in Sources */ = {isa = PBXBuildFile; fileRef = 452C48EF1C9356D1000A5BE7 /* ADUniversities.m */; };
 		457BEC821C5E0D0D00B96F5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC811C5E0D0D00B96F5C /* main.m */; };
 		457BEC851C5E0D0D00B96F5C /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC841C5E0D0D00B96F5C /* ADAppDelegate.m */; };
 		457BEC881C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 457BEC861C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld */; };
@@ -17,6 +24,7 @@
 		457BECAC1C5E1CA000B96F5C /* ADStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BECAB1C5E1CA000B96F5C /* ADStudentsTableViewController.m */; };
 		457BECAF1C5E1DA400B96F5C /* ADStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BECAE1C5E1DA400B96F5C /* ADStartViewController.m */; };
 		45B42F321C5E3A7100344EDB /* ADDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B42F311C5E3A7100344EDB /* ADDataManager.m */; };
+		45E6ABB21C94B53C000B7374 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6ABAF1C94B53C000B7374 /* CoreDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451905AD1C95E91100E3F917 /* ADUniversityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUniversityViewController.h; sourceTree = "<group>"; };
+		451905AE1C95E91100E3F917 /* ADUniversityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUniversityViewController.m; sourceTree = "<group>"; };
+		451EF01C1C98AD41009265BC /* ADNewStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNewStudentViewController.h; sourceTree = "<group>"; };
+		451EF01D1C98AD41009265BC /* ADNewStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNewStudentViewController.m; sourceTree = "<group>"; };
+		452C48E61C9356D1000A5BE7 /* ADCourses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADCourses.h; path = GuruCrafterApp/ADCourses.h; sourceTree = "<group>"; };
+		452C48E71C9356D1000A5BE7 /* ADCourses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADCourses.m; path = GuruCrafterApp/ADCourses.m; sourceTree = "<group>"; };
+		452C48E81C9356D1000A5BE7 /* ADLecturers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADLecturers.h; path = GuruCrafterApp/ADLecturers.h; sourceTree = "<group>"; };
+		452C48E91C9356D1000A5BE7 /* ADLecturers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADLecturers.m; path = GuruCrafterApp/ADLecturers.m; sourceTree = "<group>"; };
+		452C48EA1C9356D1000A5BE7 /* ADObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADObject.h; path = GuruCrafterApp/ADObject.h; sourceTree = "<group>"; };
+		452C48EB1C9356D1000A5BE7 /* ADObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADObject.m; path = GuruCrafterApp/ADObject.m; sourceTree = "<group>"; };
+		452C48EC1C9356D1000A5BE7 /* ADStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADStudents.h; path = GuruCrafterApp/ADStudents.h; sourceTree = "<group>"; };
+		452C48ED1C9356D1000A5BE7 /* ADStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADStudents.m; path = GuruCrafterApp/ADStudents.m; sourceTree = "<group>"; };
+		452C48EE1C9356D1000A5BE7 /* ADUniversities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADUniversities.h; path = GuruCrafterApp/ADUniversities.h; sourceTree = "<group>"; };
+		452C48EF1C9356D1000A5BE7 /* ADUniversities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADUniversities.m; path = GuruCrafterApp/ADUniversities.m; sourceTree = "<group>"; };
 		457BEC7C1C5E0D0D00B96F5C /* GuruCrafterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuruCrafterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		457BEC801C5E0D0D00B96F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457BEC811C5E0D0D00B96F5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +70,8 @@
 		457BECAE1C5E1DA400B96F5C /* ADStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADStartViewController.m; sourceTree = "<group>"; };
 		45B42F301C5E3A7100344EDB /* ADDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDataManager.h; path = GuruCrafterApp/ADDataManager.h; sourceTree = "<group>"; };
 		45B42F311C5E3A7100344EDB /* ADDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDataManager.m; path = GuruCrafterApp/ADDataManager.m; sourceTree = "<group>"; };
+		45E6ABAE1C94B53C000B7374 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		45E6ABAF1C94B53C000B7374 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4512A5BA1C6BA5AE0032DD56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				452C48E61C9356D1000A5BE7 /* ADCourses.h */,
+				452C48E71C9356D1000A5BE7 /* ADCourses.m */,
+				452C48E81C9356D1000A5BE7 /* ADLecturers.h */,
+				452C48E91C9356D1000A5BE7 /* ADLecturers.m */,
+				452C48EA1C9356D1000A5BE7 /* ADObject.h */,
+				452C48EB1C9356D1000A5BE7 /* ADObject.m */,
+				452C48EC1C9356D1000A5BE7 /* ADStudents.h */,
+				452C48ED1C9356D1000A5BE7 /* ADStudents.m */,
+				452C48EE1C9356D1000A5BE7 /* ADUniversities.h */,
+				452C48EF1C9356D1000A5BE7 /* ADUniversities.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		457BEC731C5E0D0D00B96F5C = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				457BECA91C5E193B00B96F5C /* App Delegate */,
+				4512A5BA1C6BA5AE0032DD56 /* Models */,
 				457BECA81C5E191100B96F5C /* Controllers */,
 				45B42F331C5E3A7500344EDB /* Data Singletone */,
 				457BEC861C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld */,
@@ -132,8 +175,14 @@
 			children = (
 				457BECAD1C5E1DA400B96F5C /* ADStartViewController.h */,
 				457BECAE1C5E1DA400B96F5C /* ADStartViewController.m */,
+				451905AD1C95E91100E3F917 /* ADUniversityViewController.h */,
+				451905AE1C95E91100E3F917 /* ADUniversityViewController.m */,
 				457BECAA1C5E1CA000B96F5C /* ADStudentsTableViewController.h */,
 				457BECAB1C5E1CA000B96F5C /* ADStudentsTableViewController.m */,
+				451EF01C1C98AD41009265BC /* ADNewStudentViewController.h */,
+				451EF01D1C98AD41009265BC /* ADNewStudentViewController.m */,
+				45E6ABAE1C94B53C000B7374 /* CoreDataViewController.h */,
+				45E6ABAF1C94B53C000B7374 /* CoreDataViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -257,12 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451905AF1C95E91100E3F917 /* ADUniversityViewController.m in Sources */,
+				452C48F31C9356D1000A5BE7 /* ADStudents.m in Sources */,
 				457BECAC1C5E1CA000B96F5C /* ADStudentsTableViewController.m in Sources */,
 				457BEC851C5E0D0D00B96F5C /* ADAppDelegate.m in Sources */,
+				452C48F21C9356D1000A5BE7 /* ADObject.m in Sources */,
+				452C48F41C9356D1000A5BE7 /* ADUniversities.m in Sources */,
 				457BEC821C5E0D0D00B96F5C /* main.m in Sources */,
+				452C48F01C9356D1000A5BE7 /* ADCourses.m in Sources */,
 				457BEC881C5E0D0D00B96F5C /* GuruCrafterApp.xcdatamodeld in Sources */,
 				45B42F321C5E3A7100344EDB /* ADDataManager.m in Sources */,
+				452C48F11C9356D1000A5BE7 /* ADLecturers.m in Sources */,
 				457BECAF1C5E1DA400B96F5C /* ADStartViewController.m in Sources */,
+				451EF01E1C98AD41009265BC /* ADNewStudentViewController.m in Sources */,
+				45E6ABB21C94B53C000B7374 /* CoreDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

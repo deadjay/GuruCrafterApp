@@ -8,6 +8,7 @@
 
 #import "ADStartViewController.h"
 #import "ADStudentsTableViewController.h"
+#import "ADDataManager.h"
 
 @implementation ADStartViewController
 
@@ -19,8 +20,9 @@
 }
 
 - (IBAction)startButtonAction:(UIButton *)sender {
-    
+        
     [self performSegueWithIdentifier:@"navControllerIdentifier" sender:nil];
     
 }
+
 @end

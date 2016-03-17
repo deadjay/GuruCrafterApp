@@ -8,6 +8,7 @@
 
 #import "ADAppDelegate.h"
 #import "ADStartViewController.h"
+#import "ADUniversityViewController.h"
 #import "ADStudentsTableViewController.h"
 #import "ADDataManager.h"
 
@@ -21,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    //ADStudentsTableViewController* vc = [[ADStudentsTableViewController alloc] init];
+    //ADUniversityViewController* vc = [[ADUniversityViewController alloc] init];
     
     //ADStartViewController* vc = [[ADStartViewController alloc] init];
     //UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:vc];
@@ -29,6 +30,10 @@
     //ADStartViewController* vc = [[ADStartViewController alloc] init];
     
     //self.window.rootViewController = vc;
+        
+    //[[ADDataManager sharedManager] addAllObjects];
+    
+    [self firstTimeRunning];
     
     return YES;
 }
@@ -55,6 +60,19 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [[ADDataManager sharedManager] saveContext];
+}
+
+- (void) firstTimeRunning {
+    
+    if (![@"1" isEqualToString:[[NSUserDefaults standardUserDefaults]
+                                objectForKey:@"aValue"]]) {
+        [[NSUserDefaults standardUserDefaults] setValue:@"1" forKey:@"aValue"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        [[ADDataManager sharedManager] addAllObjects];
+        
+    }
+    
 }
 
 @end

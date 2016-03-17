@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="15C50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ADCourses" representedClassName="ADCourses" parentEntity="ADObject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lecturers" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ADLecturers" inverseName="courses" inverseEntity="ADLecturers" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ADStudents" inverseName="courses" inverseEntity="ADStudents" syncable="YES"/>
+        <relationship name="university" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ADUniversities" inverseName="courses" inverseEntity="ADUniversities" syncable="YES"/>
+    </entity>
+    <entity name="ADLecturers" representedClassName="ADLecturers" parentEntity="ADObject" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ADCourses" inverseName="lecturers" inverseEntity="ADCourses" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ADUniversities" inverseName="lecturers" inverseEntity="ADUniversities" syncable="YES"/>
+    </entity>
+    <entity name="ADObject" representedClassName="ADObject" syncable="YES"/>
+    <entity name="ADStudents" representedClassName="ADStudents" parentEntity="ADObject" syncable="YES">
+        <attribute name="averageScore" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ADCourses" inverseName="students" inverseEntity="ADCourses" syncable="YES"/>
+        <relationship name="university" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ADUniversities" inverseName="students" inverseEntity="ADUniversities" syncable="YES"/>
+    </entity>
+    <entity name="ADUniversities" representedClassName="ADUniversities" parentEntity="ADObject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ADCourses" inverseName="university" inverseEntity="ADCourses" syncable="YES"/>
+        <relationship name="lecturers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ADLecturers" inverseName="university" inverseEntity="ADLecturers" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ADStudents" inverseName="university" inverseEntity="ADStudents" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ADCourses" positionX="-180" positionY="38" width="128" height="103"/>
+        <element name="ADLecturers" positionX="-396" positionY="23" width="128" height="103"/>
+        <element name="ADObject" positionX="-173" positionY="-207" width="128" height="43"/>
+        <element name="ADStudents" positionX="63" positionY="23" width="128" height="118"/>
+        <element name="ADUniversities" positionX="-171" positionY="-112" width="128" height="103"/>
+    </elements>
 </model>

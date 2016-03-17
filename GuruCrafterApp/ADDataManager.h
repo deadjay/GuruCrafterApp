@@ -20,4 +20,8 @@
 
 + (ADDataManager*) sharedManager;
 
+- (void) addAllObjects;
+- (void) printAllObjects;
+- (void) deleteAllObjects;
+
 @end
